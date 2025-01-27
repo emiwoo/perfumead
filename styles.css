@@ -1,0 +1,106 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    width: 330px;
+    margin: 4rem auto;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 -110px;
+    border-radius: 15px 15px 0 0;
+}
+
+.lowercard {
+    padding: 0 1.5rem 0.75rem 1.5rem;
+}
+
+.perfume {
+    font-family: mont;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin-top: 1.5rem;
+}
+
+h1 {
+    font-family: fraunces;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.desc {
+    font-family: mont;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6;
+}
+
+.big {
+    font-size: 2rem;
+    margin: 0;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+
+.small {
+    font-size: 13px;
+    color:hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.priceContainer {
+    display: flex;
+    font-family: fraunces;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: mont;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.75rem;
+}
+
+@font-face {
+    font-family: 'fraunces';
+    src: url("Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
+@font-face {
+    font-family: 'mont';
+    src: url("Montserrat-VariableFont_wght.ttf");
+}
+
+@media (min-width: 800px) {
+    .card {
+        display: flex;
+        align-items: center;
+        width: 575px;
+        height: 400px;
+    }
+
+    img {
+        width: 325px;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px 0 0 15px;
+    }
+
+}
